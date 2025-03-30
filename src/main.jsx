@@ -5,6 +5,7 @@ import './index.css'
 
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider, Navigate } from 'react-router-dom'
 
+// Importing all the files
 import Layout from './Layout'
 import Home from './components/home/Home'
 import About from './components/about/About'
@@ -12,6 +13,7 @@ import Contact from './components/contact/Contact'
 import User from './components/user/User'
 import Github from './components/github/Github'
 
+//Start of the router ,createBrowserRouter is always neccessary to make routers
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
